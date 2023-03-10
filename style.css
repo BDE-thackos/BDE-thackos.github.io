@@ -62,8 +62,8 @@ nav button{
 	border: 0px;
 	font-size: 1.5em;
 	font-weight: 700;
-	font-family: serif;
-	color: rgb(108,0,39);
+	font-family: Calibri;
+	color: #222;
 	background: transparent;
 	cursor: pointer;
 	position: relative;
@@ -81,10 +81,10 @@ nav button::after{
   	width: 400px;
 	height: 400px;
   	position: absolute;
-	background-image: linear-gradient(225deg, #700d2a 0%, #eecc67 50%, #8dc343 100%);
+	background-image: linear-gradient(225deg, #700d2a 0%, #eecc67 50%, #5c7c35 100%);
 	top: -50px;
 	left: -100px;
-	transition: all .7s;
+	transition: all .5s;
 	z-index: -1;
 	
 }
@@ -117,7 +117,7 @@ section.presentation {
 	padding-bottom: 12%;
 	padding-left: 3%;
 	padding-right: 3%;
-	background-color: #fde88d;
+	background-color: #fff5ee;
 }
 
 section.presentation .membres {
@@ -129,17 +129,26 @@ section.presentation .membres {
 }
 
 section.presentation .membres li {
-	width: calc(100% / 5);
+	width: calc(100% / 5 - 2%);
 	margin-bottom: 2em;
-	padding: 0 1em;
+	margin-top:4em;
+	margin : 1em;
+	padding: 2.25%;
 	text-align: center;
+	background-color: rgb(226, 226, 196);
+	border-radius: 10px;
+	min-width: 175px;
+}
+
+section.presentation .membres li.president{
+	padding: 1.5%;
 }
 
 section.presentation .membres img {
 	width: 100%;
 	height: auto;
 	margin-bottom: 0.5em;
-	border-radius: 50%;
+	border-radius: 20%;
 }
 
 section.presentation .membres h3 {
