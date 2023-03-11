@@ -193,11 +193,11 @@ section.partenariats ul {
 }
 
 section.partenariats h2 {
-	color :#700d2a;
+	color :#fff;
 }
 
 section.partenariats p {
-	color :#fde88d;
+	color :#ffffff;
 }
 
 section.partenariats li {
@@ -209,7 +209,7 @@ section.partenariats li {
 }
 
 section.partenariats img {
-	background-color: #fde88d;
+	background-color: #fff;
 	width: 400px;
 	height: auto;
 	border-radius: 10px;
