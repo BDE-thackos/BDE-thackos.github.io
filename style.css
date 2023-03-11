@@ -52,16 +52,6 @@ nav li {
 	z-index: 2;
 }
 
-nav a {
-	color: #fff;
-	text-decoration: none;
-	font-size: 1.5em;
-	z-index: -1;
-}
-
-nav a:hover {
-	text-decoration: underline;
-}
 
 nav button{
 	border: 0px;
@@ -183,6 +173,8 @@ section.presentation ul.membres li ul.medias li {
 	width: 100px;
 	margin-bottom: -20px;
 	margin-top: -10px;
+	cursor: pointer;
+	padding: 12px;
 }
 
 section.partenariats {
@@ -213,6 +205,7 @@ section.partenariats li {
 	padding: 0 1em;
 	text-align: center;
 	display: flex;
+	cursor: pointer;
 }
 
 section.partenariats img {
