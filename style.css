@@ -17,6 +17,7 @@ header {
 	background-color: #222; 
 	color: #fff;
 	padding: 22%;
+	
 	text-align: center;
 	padding-bottom: 55vh;
 }
@@ -108,12 +109,21 @@ main {
 }
 
 section h2 {
-	font-size: 2em;
+	font-size: 3em;
 	margin-bottom: 1em;
 }
 
 section p {
 	margin-bottom: 1em;
+	font-size: 2em;
+	color:#222;
+}
+
+section p.role{
+	background-color: #fde88d;
+	padding:2px;
+	border-radius: 5px;
+	
 }
 
 section.presentation {
@@ -121,7 +131,7 @@ section.presentation {
 	padding-bottom: 12%;
 	padding-left: 3%;
 	padding-right: 3%;
-	background-color: #fff5ee;
+	background-color: #fde88d;
 }
 
 section.presentation .membres {
@@ -133,15 +143,15 @@ section.presentation .membres {
 }
 
 section.presentation .membres li {
-	width: calc(100% / 5 - 2%);
-	margin-bottom: 2em;
+	width: 410px;
+	color : #fff;
+	margin-bottom: 8em;
 	margin-top:4em;
 	margin : 1em;
-	padding: 2.25%;
+	padding: 20px;
 	text-align: center;
-	background-color: rgb(226, 226, 196);
-	border-radius: 10px;
-	min-width: 175px;
+	background-color: #333;
+	border-radius: 20px;
 }
 
 section.presentation .membres li.president{
@@ -164,6 +174,17 @@ section.presentation .membres p {
 	font-size: 0.9em;
 }
 
+section.presentation ul.membres li ul.medias {
+	display: flex;
+	list-style: none;
+}
+
+section.presentation ul.membres li ul.medias li {
+	width: 100px;
+	margin-bottom: -20px;
+	margin-top: -10px;
+}
+
 section.partenariats {
 	padding-top : 13%;
 	padding-bottom: 13%;
@@ -179,8 +200,15 @@ section.partenariats ul {
 	padding: 0;
 }
 
-section.partenariats li {
+section.partenariats h2 {
+	color :#700d2a;
+}
 
+section.partenariats p {
+	color :#fde88d;
+}
+
+section.partenariats li {
 	margin-bottom: 2em;
 	padding: 0 1em;
 	text-align: center;
@@ -188,56 +216,21 @@ section.partenariats li {
 }
 
 section.partenariats img {
-	width: calc(100%/3);
+	background-color: #fde88d;
+	width: 400px;
 	height: auto;
 	border-radius: 10px;
-}
 
-/* Footer */
-footer {
-	background-color: #222;
-	color: #fff;
-	padding: 1em;
-	text-align: center;
 }
 
 
 
-/* @media only screen and (max-width: 768px) {
-	//For mobile phones: 
-	header{
-		padding: 500vh;
 
-	}
-	nav button{
-		width: 0;
-		padding: 0;
-	}
-
-	img.logobde{
-		width: 60%;
-		margin-left : 20%;
-	}
-	
-	header h1 {
-		font-size: 24vh;
-		margin: -20%;
-		margin-top: 0;
-		margin-bottom: 30%;
-		
-	}
-	header h1.bde{
-		font-size: 400%;
-	}
-	
-	
-  } */
-
-
-  @media only screen and (max-width: 1600px) {
+  @media only screen and (max-width: 960px) {
 	header{
 		padding-top:50%;
-		padding-bottom: 55vh;
+		padding-bottom: 25vh;
+		margin-top:-10%;
 
 	}
 	nav button{
@@ -264,3 +257,11 @@ footer {
 	}
 	
   }
+
+  /* Footer */
+footer {
+	background-color: #222;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
