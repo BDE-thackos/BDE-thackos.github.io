@@ -144,13 +144,16 @@ section.presentation .membres li {
 	border-radius: 20px;
 }
 
+section.presentation .membres li img.photo-profil {
+	width: 370px;
+}
+
 section.presentation .membres li.president{
 	padding: 1.5%;
 }
 
 section.presentation .membres img {
 	width: 100%;
-	height: auto;
 	margin-bottom: 0.5em;
 	border-radius: 20%;
 }
@@ -208,12 +211,35 @@ section.partenariats li {
 	cursor: pointer;
 }
 
-section.partenariats img {
+section.partenariats li img {
 	background-color: #fff;
 	width: 400px;
-	height: auto;
+	height: 300px;
 	border-radius: 10px;
+	position: absolute;
+	margin-top:50px;
+}
 
+section.partenariats li p.nom-entreprise {
+	text-align: center;
+	margin-top:-10px;
+	background-color: #222;
+	font-size: 1.38em;
+	padding: 5px 10px;
+	border-radius: 5px;
+	width: 400px;
+	height:40px;
+	position: absolute;
+}
+
+section.partenariats li p.avantages {
+	text-align: center;
+	margin-top:375px;
+	background-color: #222;
+	font-size: 1.38em;
+	padding: 5px 10px;
+	border-radius: 5px;
+	width: 400px;
 }
 
 
