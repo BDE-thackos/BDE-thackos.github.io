@@ -93,10 +93,6 @@ nav button:hover {
 	box-shadow: 10px -10px 25px 0px rgba(253,232,141,.5), -10px 10px 25px 0px rgba(253,232,141,.5);
   }
 
-/* Main */
-main {
-	background-color: aqua;
-}
 
 section h2 {
 	font-size: 3em;
@@ -116,6 +112,11 @@ section p.role{
 	
 }
 
+/** 
+ * Section Présentation de l'équipe
+ * Images au format 1/1
+ * 
+ */
 section.presentation {
 	padding-top: 12%;
 	padding-bottom: 12%;
@@ -180,6 +181,13 @@ section.presentation ul.membres li ul.medias li {
 	padding: 12px;
 }
 
+
+/*
+ * Section partenariats
+ * Images au format 4/3
+ *
+ */
+
 section.partenariats {
 	padding-top : 13%;
 	padding-bottom: 13%;
@@ -230,6 +238,7 @@ section.partenariats li p.nom-entreprise {
 	width: 400px;
 	height:40px;
 	position: absolute;
+	cursor: default;
 }
 
 section.partenariats li p.avantages {
@@ -240,6 +249,7 @@ section.partenariats li p.avantages {
 	padding: 5px 10px;
 	border-radius: 5px;
 	width: 400px;
+	cursor: default;
 }
 
 
