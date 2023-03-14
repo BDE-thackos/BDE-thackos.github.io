@@ -28,6 +28,7 @@ img.logobde {
 	margin-bottom: 5%;
 	position: absolute;
 	width: 20%;
+	cursor: pointer;
 }
 
 header h1 {
